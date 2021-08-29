@@ -23,8 +23,10 @@ public class Main {
      */
 
     public static void recebeEntrada(){
+        System.out.println("Entre com a quantidade de arestas: ");
         int m = input.nextInt();
         for (int i = 0; i < m ; i++) {
+            System.out.println("Entre com a origem, o destino e o peso da aresta: ");
             int x = input.nextInt();
             int y = input.nextInt();
             int peso = input.nextInt();
@@ -53,7 +55,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("Entre com a quantidade de vertices e arestas: ");
+        System.out.println("Entre com a quantidade de vertices: ");
         int n = input.nextInt();
         recebeEntrada();
         Collections.sort(arestas);
