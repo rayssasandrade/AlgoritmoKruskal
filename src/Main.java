@@ -26,7 +26,7 @@ public class Main {
         System.out.println("Entre com a quantidade de arestas: ");
         int m = input.nextInt();
         for (int i = 0; i < m ; i++) {
-            System.out.println("Entre com a origem, o destino e o peso da aresta: ");
+            System.out.println("Entre com o identificador dos dois vertices da ligação e o peso da aresta: ");
             int x = input.nextInt();
             int y = input.nextInt();
             int peso = input.nextInt();
